@@ -18,6 +18,11 @@
         <img src="images/airplane-ticket.png" alt="Bootstrap" width="50" height="44">
       </a>
       
+      <!-- How to place button outside of mobile hamburger menu -->
+      <!-- <a class="button" href="#">
+        Explore Adventures
+      </a> -->
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -43,7 +48,7 @@
           </li>
         </ul>
         <div>
-          <button type="button" class="btn btn-success me-2">Explore Adventures</button>
+          <button type="button" class="btn btn-success me-2 mb-2">Explore Adventures</button>
         </div>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -63,7 +68,16 @@
 </Header>
 
 <Main>
-  <img class="img-fluid" src="images/adventure-tourism-banner.jpg" alt="adventure tourism banner">
+  <div class="position-relative">
+    <img class="img-fluid" src="images/adventure-tourism-banner.jpg" alt="adventure tourism banner">
+    <div class="text-center position-absolute top-50 start-50 translate-middle">
+      <h1 class="display-1 fw-bold">Push Your Limits with SkyHigh Adventures</h1>
+      <h2>Experience the thrill of a lifetime with breathtaking views and adrenaline fueled activities.</h2>
+      <h3></h3>
+    </div>
+  </div>
+
+
 </Main>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>

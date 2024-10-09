@@ -1,5 +1,33 @@
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
     .btn-success {
         margin-bottom: 0 !important;
     }
+} */
+
+img {
+    width: 100%;
 }
+/* 
+.hero {
+    height: 600px;
+    background-color: #7251B5;
+    background-image: url(../images/adventure-tourism-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    filter: grayscale(70%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+#hero {
+    align-items: center;
+    background-image: url("../images/adventure-tourism-banner.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+  }
